@@ -14,6 +14,11 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  margin: auto;
+  max-width: 1000px;
+}
+
 .banner {
   position: relative;
   background: url("banner.jpg") center;
@@ -27,7 +32,7 @@ body {
   width: 100%;
   height: 600px;
   top: 0;
-  background-color: rgba(0,0,0,0.65);
+  background-color: rgba(2,0,0,0.65);
 }
 
 .banner-content {
@@ -41,7 +46,7 @@ body {
   color: #fff;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 42px;
   letter-spacing: 4px;
 }
@@ -77,9 +82,9 @@ body {
   font-weight: 400;
   font-size: 18px;
   padding: 15px 25px;
-  background: #fc4a1a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(45deg, #fc4a1a 0%, #f7b733 100%); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(45deg, #fc4a1a 0%, #f7b733 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fd746c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #ff9068 0%, #fd746c 100%); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #ff9068 0%, #fd746c 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 0 5px 5px 0;
   color: #fff;
 }
@@ -88,76 +93,17 @@ body {
   cursor: pointer;
 }
 
-.intro {
-  text-align: center;
-  background: #fafafa url("background.png");
-  background-size: 612px 612px;
-  background-position: 0 -25px;
-  padding: 120px 0;
-}
-
-.container {
-  margin: auto;
-  max-width: 1000px;
-}
-
-.intro-title {
-  text-align: center;
-  font-family: "Lora", serif;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 42px;
-  display: inline-block;
-  background: #fc4a1a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(45deg, #fc4a1a 0%, #f9ed32 100%); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(45deg, #fc4a1a 0%, #f9ed32 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.intro-content {
-  margin: auto;
-  max-width: 600px;
-  color: #333;
-  text-align: center;
-  font-family: "Lora", serif;
-  font-weight: 400;
-  line-height: 36px;
-  font-size: 24px;
-}
-
-.intro-button {
-  display: inline-block;
-  margin: auto;
-  color: #999;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 2px;
-  padding-bottom: 2px;
-  border-bottom: 2px dashed #999;
-}
-
-.intro-button:hover {
-  cursor: pointer;
-  color: #fc4a1a;
-  border-bottom: 2px solid #fc4a1a;
-}
-
 .how {
-  border-top: 1px solid #ddd;
-  background: #fff;
-  padding: 120px 0;
+  background: #fffefe;
+  padding: 100px 0;
   text-align: center;
 }
 
 .how-title {
-  color: #666;
+  color: #696666;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   letter-spacing: 3px;
 }
@@ -170,7 +116,7 @@ body {
 }
 
 .step h1 {
-  color: #ddd;
+  color: #dfdddd;
   font-family: "Lora", serif;
   font-weight: 700;
   font-size: 64px;
@@ -183,7 +129,7 @@ body {
 }
 
 .step p {
-  color: #333;
+  color: #464444;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -191,8 +137,47 @@ body {
   margin-top: 35px;
 }
 
+.faq {
+  text-align: center;
+  background: url("background-alt.png");
+  background-size: 612px 612px;
+  background-position: 0 -25px;
+  padding: 100px 0;
+}
+
+.faq .container {
+  max-width: 600px;
+}
+
+.faq-title {
+  color: #696666;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.question {
+  text-align: left;
+  color: #464444;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.answer {
+  text-align: left;
+  color: #797777;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
 .footer {
-  background: #333;
+  background: #353333;
   padding: 120px 0;
   text-align: center;
 }
