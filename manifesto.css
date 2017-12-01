@@ -1,0 +1,80 @@
+.background {
+  background: rgb(35, 125, 235);
+  background: -webkit-linear-gradient(150deg, rgb(10, 60, 180) 0%, rgb(35, 125, 235) 100%); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(150deg, rgb(10, 60, 180) 0%, rgb(35, 125, 235) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+}
+
+.manifesto {
+  background: #fff;
+  margin: 75px auto 150px;
+  max-width: 1000px;
+  padding: 70px 100px 55px;
+  box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.2);
+}
+
+.quill {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.manifesto h1 {
+  color: #666;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.manifesto h2 {
+  color: #222;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  padding-bottom: 50px;
+}
+
+.manifesto h3 {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+}
+
+.manifesto p {
+  color: #666;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 25px;
+}
+
+.manifesto li {
+  list-style: none;
+  padding: 50px 0;
+  border-top: 1px solid #ccc;
+}
+
+.li-10 {
+  margin-left: -5px;
+}
+
+.footer {
+  background: #393939;
+}
+
+.apply-button {
+  color: #fff;
+  background: #197df5;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.apply-button:hover {
+  box-shadow: 13px 13px 30px 3px rgba(0, 0, 0, 0.3);
+}

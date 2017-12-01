@@ -1,0 +1,122 @@
+body {
+  text-align: center;
+}
+
+.title, .subtitle {
+  text-align: left;
+}
+
+.tab {
+  color: #197df5;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.tab:hover {
+  color: rgb(10, 75, 200);
+  border-bottom-color: rgb(10, 75, 200);
+}
+
+.highlighted {
+  border-bottom: 1.5px solid #197df5;
+}
+
+.questions {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  max-width: 700px;
+  padding: 55px 30px 100px;
+  vertical-align: top;
+}
+
+.question {
+  padding-top: 50px;
+}
+
+.questions .subtitle {
+  margin-bottom: 15px;
+}
+
+.question h1 {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  margin-bottom: 21px;
+}
+
+.question p {
+  color: #666;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact {
+  display: inline-block;
+  width: 100%;
+  max-width: 450px;
+  padding: 45px 46px 47px;
+  margin: 50px 25px 100px;
+  vertical-align: top;
+  background: #197df5;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  color: #fff;
+}
+
+.contact h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.contact h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+
+.contact p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.contact i {
+  margin-right: 10px;
+  width: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.terms-title {
+  margin: auto;
+  padding: 50px;
+  margin: auto;
+  max-width: 800px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: #111;
+}
+
+.terms {
+  margin: auto;
+  max-width: 800px;
+  padding: 0 50px 100px;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  color: #333;
+  line-height: 24px;
+}

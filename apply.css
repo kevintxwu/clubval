@@ -1,0 +1,117 @@
+body {
+  text-align: center;
+}
+
+.title, .subtitle {
+  text-align: left;
+}
+
+.tab {
+  color: #197df5;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.tab:hover {
+  color: rgb(10, 75, 200);
+  border-bottom-color: rgb(10, 75, 200);
+}
+
+.highlighted {
+  border-bottom: 1.5px solid #197df5;
+}
+
+.footer {
+  padding: 0px;
+}
+
+.footer-bar {
+  border: none;
+}
+
+.application {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  max-width: 700px;
+  padding: 55px 30px;
+  vertical-align: top;
+}
+
+.application .subtitle {
+  margin-bottom: 0;
+}
+
+.details {
+  display: inline-block;
+  width: 100%;
+  max-width: 450px;
+  padding: 45px 46px 47px;
+  margin: 50px 25px 100px;
+  vertical-align: top;
+  background: #197df5;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  color: #fff;
+}
+
+.application h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin: 60px 0 40px;
+  color: #999;
+}
+
+.field {
+  margin-top: 30px;
+}
+
+label {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #666;
+  width: 150px;
+  font-size: 16px;
+}
+
+input {
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 11px 13px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #333;
+  font-size: 16px;
+  width: 475px;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.details h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.details h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+
+.details p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.9;
+}
